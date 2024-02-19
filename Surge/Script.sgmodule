@@ -1,6 +1,7 @@
-#!name=脚本合集
-#!desc=更新时间 2024-02-19 00:50
-# From https://github.com/githubdulong
+#! name=脚本合集
+#! 更新时间 2024/2/20 0:07
+#  From https://github.com/githubdulong
+
 [Header Rewrite]
 # > Bing Ai
 ^https:\/\/www\.bing\.com\/search header-replace User-Agent "Mozilla/5.0 (iphone; Intel Mac OS X 10_12_6) AppleWebKit/537.36 Chrome/110.0 Safari/537.36 Edg/110.0"

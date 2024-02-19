@@ -1,2 +1,2 @@
-Script
+# Script
 Surge | QuantumultX | Loon
