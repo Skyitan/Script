@@ -1,0 +1,2 @@
+Script
+Surge | QuantumultX | Loon
