@@ -1,5 +1,6 @@
 #!name=GetCookie
-#!desc=适用于定时签到脚本的Cookie获取. 集成: ; 请在使用后手动将其禁用，以免产生不必要的MITM.
+#!适用于定时签到脚本的Cookie获取. 集成: ; 请在使用后手动将其禁用，以免产生不必要的MITM.
+#!更新时间 2024/2/20 0:54
 #!system=ios
 #!category= Skyitan
 
