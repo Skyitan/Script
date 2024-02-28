@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0520f26e-b435-417b-8f2c-5bafbf6daa56" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Surge/Cron_Task.sgmodule" beforeDir="false" afterPath="$PROJECT_DIR$/Surge/Cron_Task.sgmodule" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Surge/Get_Cookie.sgmodule" beforeDir="false" afterPath="$PROJECT_DIR$/Surge/Get_Cookie.sgmodule" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +107,9 @@
       <workItem from="1708361770321" duration="548000" />
       <workItem from="1708393667640" duration="4142000" />
       <workItem from="1708490582453" duration="3093000" />
-      <workItem from="1708587242322" duration="217000" />
+      <workItem from="1708587242322" duration="2192000" />
+      <workItem from="1708781027455" duration="598000" />
+      <workItem from="1708866960813" duration="1609000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md">
       <option name="closed" value="true" />
@@ -167,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708417158928</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1708587474542</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708587474542</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
