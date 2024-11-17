@@ -1,6 +1,5 @@
 #!name=A_Sky_GetCookie
-#!desc=更新时间 2024/2/28 14:29
-#!更新时间 2024/2/20 10:48
+#!更新时间 2024/11/17 10:48
 #!system=ios
 #!category= Skyitan
 
@@ -9,11 +8,19 @@ DOMAIN,gslbali.ximalaya.com,REJECT
 DOMAIN,gslbtx.ximalaya.com,REJECT
 
 [Script]
+Bing积分cookie = requires-body=0,type=http-request,pattern=https:\/\/rewards\.bing\.com,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js
+
+龙湖天街获取Cookie = type=http-request, pattern=^https?:\/\/gw2c\-hw\-open\.longfor\.com\/lmarketing\-task\-api\-mvc\-prod\/openapi\/task\/v1\/signature\/clock, script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/lhtj/lhtj.js, timeout=60
+
+顺丰速运获取token = type=http-response, pattern=^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/share\/weChat\/shareGiftReceiveRedirect.+, script-path=https://raw.githubusercontent.com/Skyitan/Script/master/Quantumult%20X/sfsy.js, requires-body=true, timeout=60
+
+阿里云Web Cookie = type=http-response, pattern=^https?:\/\/developer\.aliyun\.com\/developer\/api\/my\/user\/getUser, script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/aliyun_web/aliyun_web.js, requires-body=true, timeout=60
+
 超燃汇小程序获取cookie = type=http-request, pattern=^https:\/\/burning\.wo-adv\.cn\/integral\/queryTemlateList\.do, script-path=https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/burning.js, timeout=60
 
-# B站Cookie(APP) = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\?,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,requires-body=0
+B站Cookie(APP) = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\?,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,requires-body=0
 
-# B站Cookie(网页) = type=http-request,pattern=^https?:\/\/m.bilibili.com/$,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,requires-body=0
+B站Cookie(网页) = type=http-request,pattern=^https?:\/\/m.bilibili.com/$,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,requires-body=0
 
 喜马拉雅Cookie = type=http-request,pattern=^https?:\/\/xmc\.ximalaya\.com\/xmlymain-login-web\/login\/,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/xmly.js,requires-body=0
 
@@ -63,4 +70,4 @@ Rewrite: 顺丰速运 = type=http-request,pattern=^https:\/\/ccsp-egmas.sf-expre
 
 # 胖乖生活Cookie = type=http-request, pattern=^https:\/\/userapi\.qiekj\.com\/wechat\/unionId\/login, script-path=https://gist.githubusercontent.com/Sliverkiss/845cf469e4762afdc83c3949be006609/raw/pgsh.js, requires-body=true, max-size=-1, timeout=60
 [MITM]
-hostname = %APPEND% app.bilibili.com, m.bilibili.com, xmc.ximalaya.com, ngabbs.com, iacc.rec.qq.com, cdfmbrapi.cdfg.com.cn, *.amap.com, iios.songshuyouxi.com, qmwebapi.qmai.cn, webapi.qmai.cn, api.tuhu.cn, sytgate.jslife.com.cn, api.hellobike.com, auth.alipan.com, auth.aliyundrive.com, c.tieba.baidu.com, tiebac.baidu.com, testflight.apple.com, i.meituan.com, yunbusiness.ccb.com, game.dominos.com.cn, mvip.midea.cn, burning.wo-adv.cn, userapi.qiekj.com
+hostname = %APPEND% app.bilibili.com, m.bilibili.com, xmc.ximalaya.com, ngabbs.com, iacc.rec.qq.com, cdfmbrapi.cdfg.com.cn, *.amap.com, iios.songshuyouxi.com, qmwebapi.qmai.cn, webapi.qmai.cn, api.tuhu.cn, sytgate.jslife.com.cn, api.hellobike.com, auth.alipan.com, auth.aliyundrive.com, c.tieba.baidu.com, tiebac.baidu.com, testflight.apple.com, i.meituan.com, yunbusiness.ccb.com, game.dominos.com.cn, mvip.midea.cn, burning.wo-adv.cn, userapi.qiekj.com, developer.aliyun.com, mcs-mimp-web.sf-express.com, gw2c-hw-open.longfor.com, rewards.bing.com
