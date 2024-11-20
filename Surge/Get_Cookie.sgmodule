@@ -62,7 +62,7 @@ TestFlight = type=http-request, pattern=^https:\/\/testflight\.apple\.com\/v3\/a
 
 建行生活Cookie = type=http-request, pattern=^https:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin), script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js, requires-body=true, timeout=60
 
-达美乐Cookie = type=http-request, pattern=^https:\/\/game\.dominos\.com\.cn\/loong\/game\/gameDone, script-path=https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js, requires-body=true, timeout=60
+达美乐Cookie = type=http-request, pattern=^https:\/\/game\.dominos\.com\.cn\/game\/gameDone, script-path=https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js, requires-body=true, timeout=60
 
 美的Cookie = type=http-request, pattern=^https:\/\/mvip.midea.cn\/next\/mucuserinfo\/getmucuserinfo, script-path=https://gist.githubusercontent.com/Sliverkiss/3c0239a09cbe381c572a826a5caf5621/raw/midea.js, timeout=60
 
