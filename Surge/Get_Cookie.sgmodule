@@ -56,7 +56,6 @@ tieba_signin = type=http-request, pattern=^https?:\/\/c\.tieba\.baidu\.com\/c\/s
 
 tieba_signin = type=http-request, pattern=^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo, script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js, timeout=60
 
-TestFlight = type=http-request, pattern=^https:\/\/testflight\.apple\.com\/v3\/accounts\/.*\/ru\/([^\/]+)(?!\/accept)$, script-path=https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/TF_appIds.js, timeout=60
 
 # 使用方法2：美团APP -> 首页 -> 红包签到 -> 手动签到一次
 
@@ -72,4 +71,4 @@ Rewrite: 顺丰速运 = type=http-request,pattern=^https:\/\/ccsp-egmas.sf-expre
 
 # 胖乖生活Cookie = type=http-request, pattern=^https:\/\/userapi\.qiekj\.com\/wechat\/unionId\/login, script-path=https://gist.githubusercontent.com/Sliverkiss/845cf469e4762afdc83c3949be006609/raw/pgsh.js, requires-body=true, max-size=-1, timeout=60
 [MITM]
-hostname = %APPEND% app.bilibili.com, m.bilibili.com, xmc.ximalaya.com, ngabbs.com, iacc.rec.qq.com, cdfmbrapi.cdfg.com.cn, *.amap.com, iios.songshuyouxi.com, qmwebapi.qmai.cn, webapi.qmai.cn, api.tuhu.cn, sytgate.jslife.com.cn, api.hellobike.com, auth.alipan.com, auth.aliyundrive.com, c.tieba.baidu.com, tiebac.baidu.com, testflight.apple.com, i.meituan.com, yunbusiness.ccb.com, game.dominos.com.cn, mvip.midea.cn, burning.wo-adv.cn, userapi.qiekj.com, developer.aliyun.com, mcs-mimp-web.sf-express.com, gw2c-hw-open.longfor.com, rewards.bing.com, apis.folidaymall.com
+hostname = %APPEND% app.bilibili.com, m.bilibili.com, xmc.ximalaya.com, ngabbs.com, iacc.rec.qq.com, cdfmbrapi.cdfg.com.cn, *.amap.com, iios.songshuyouxi.com, qmwebapi.qmai.cn, webapi.qmai.cn, api.tuhu.cn, sytgate.jslife.com.cn, api.hellobike.com, auth.alipan.com, auth.aliyundrive.com, c.tieba.baidu.com, tiebac.baidu.com, i.meituan.com, yunbusiness.ccb.com, game.dominos.com.cn, mvip.midea.cn, burning.wo-adv.cn, userapi.qiekj.com, developer.aliyun.com, mcs-mimp-web.sf-express.com, gw2c-hw-open.longfor.com, rewards.bing.com, apis.folidaymall.com
